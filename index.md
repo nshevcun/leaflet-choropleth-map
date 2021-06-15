@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -72,12 +71,10 @@
         <h1>Map Sample - U.S.A. Population Density - Choropleth</h1>
     </div>
 
-    
     <!-- Step 4. Create the div to contain the map. -->
     <!-- Name of the ID doesn't matter, so long as it's kept consistent. -->
     <div id="mapid" class="centerobject">
     </div>
-    
 
   <!-- YOUR JAVASCRIPT HERE -->
   <!-- Step 5. US-state.js is a GeoJSON file defining data for each state, along with the graphical shape for each state that will be its outline.-->
@@ -210,6 +207,6 @@
         onEachFeature: onEachFeature
     }).addTo(map); // The colour style determined with functions getColor and style is added here. So are the event listeners.
   </script>
-  
+
 </body>
 </html>
